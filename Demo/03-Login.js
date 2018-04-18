@@ -2,19 +2,20 @@
  * @Author: gary.yuchenzhang 
  * @Date: 2018-04-17 14:20:52 
  * @Last Modified by: gary.yuchenzhang
- * @Last Modified time: 2018-04-18 10:36:26
+ * @Last Modified time: 2018-04-18 11:26:39
  */
 
-/* process.stdin()
+// /* process.stdin()
 
-process.stdin.setEncoding('utf8');
+/* process.stdin.setEncoding('utf8');
 
 process.stdin.on('readable', () => {
     const chunk = process.stdin.read();
     if (chunk !== null) {
         process.stdout.write(`data: ${chunk}`);
     }
-}); */
+});  */
+
 const ACCOUNT = 'Account: ';
 const PWD = 'Password: ';
 let isAccount = true;
