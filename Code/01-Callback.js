@@ -1,3 +1,5 @@
+'use strict';
+
 // 1. 回调函数在函数的最后一个参数
 // 2. 错误优先
 function isEvenOrOdd(num, callback) {
